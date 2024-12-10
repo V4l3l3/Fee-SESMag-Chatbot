@@ -18,7 +18,7 @@ const upload = multer({ storage: multer.memoryStorage() });
 
 // Initialize OpenAI with API Key
 const openai = new OpenAI({
-  apiKey: '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', // Replace with your OpenAI API key
+  apiKey: 'YOUR_API_KEY', // Replace with your OpenAI API key
 });
 
 // Route to handle file uploads and PDF parsing
