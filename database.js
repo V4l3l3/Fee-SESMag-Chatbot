@@ -3,8 +3,8 @@ const mysql = require('mysql2');
 // Create a connection to the MySQL database
 const db = mysql.createConnection({
   host: 'localhost',
-  user: 'root', // Default user for XAMPP MySQL
-  password: 'Y00ngi103476134340', // Default password for XAMPP MySQL
+  user: 'YOUR_USERNAME', // Default user for XAMPP MySQL
+  password: 'YOUR_PASSWORD', // Default password for XAMPP MySQL
   database: 'chatbot' // The name of the database you created
 });
 
